@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Connexion</title>
+
+   <!-- Lien vers Font Awesome via CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- Lien vers le fichier CSS personnalisé -->
+   <link rel="stylesheet" href="admin_style.css">
+
+</head>
+<body>
+
+
+<!-- Section du formulaire de connexion de l'administrateur -->
+
+<section class="form-container">
+
+   <form action="connexion.php" method="POST">
+      <h3>Connectez-vous</h3>
+      <input type="text" name="name" maxlength="20" required placeholder="Entrez votre nom" class="box" >
+      <input type="password" name="pass" maxlength="20" required placeholder="Entrez votre mot de passe" class="box" id="password">
+      <input type="submit" value="Connexion" name="submit" class="btn">
+   </form>
+
+</section>
+
+<!-- Fin de la section du formulaire de connexion de l'administrateur -->
+
+</body>
+</html>
